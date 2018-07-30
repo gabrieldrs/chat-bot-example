@@ -45,7 +45,7 @@ main {
     border-radius: 20px;
 }
 
-main .history {
+main #history {
     flex-grow: 1;
     padding:10px;
     box-sizing: border-box;
@@ -95,19 +95,19 @@ main .new-message button {
     align-self: center;
 }
 
-main .history .from-watson, main .history .from-user {
+main #history .from-watson, main #history .from-user {
     padding:10px;
     margin:10px 0;
 }
 
-main .history .from-watson {
+main #history .from-watson {
     position: relative; 
     background: #00aabb; 
     border-radius: .4em;
     align-self: flex-start;
     color:white;
 }
-main .history .from-watson:after { 
+main #history .from-watson:after { 
     content: ''; 
     position: absolute; 
     left: 0; 
@@ -122,13 +122,13 @@ main .history .from-watson:after {
     margin-left: -10px; 
 }
 
-main .history .from-user {
+main #history .from-user {
     position: relative; 
     background: #dedede; 
     border-radius: .4em;
     align-self: flex-end;
 }
-main .history .from-user:after { 
+main #history .from-user:after { 
     content: ''; 
     position: absolute; 
     right: 0; 
