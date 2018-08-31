@@ -52,9 +52,10 @@ main #history {
     display: flex;
     flex-flow: column;
     overflow: auto;
+    max-height:542px;
 }
 
-main .new-message {
+main #new-message {
     display: flex;
     flex-direction: row;
     margin:10px 10px 0 10px;
@@ -80,7 +81,7 @@ main .new-message {
     overflow: hidden
 }
 
-main .new-message button {
+main #new-message button {
     color: #4A90E2;
     border: none;
    /* background: #c29d5f;*/

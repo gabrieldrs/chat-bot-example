@@ -11,23 +11,13 @@
     <header>Chatbot Example</header>
     <main>
         <section id="history">
-            <section class="from-watson">
-                This is a message written by watson
-            </section>
-            <section class="from-user">
-                This is a message written by the user
-            </section>
-            <section class="from-user">
-                Another message written by the user...
-            </section>
-            <section class="from-watson">An here comes 2 from watson</section>
-            <section class="from-watson">Called it!</section>
         </section>
-        <section class="new-message">
+        <section id="new-message">
             <textarea id="txt-new-message" placeholder="Type message..."></textarea>
-            <button>Send</button>
+            <button id="btn-send" onclick="sendMessage()">Send</button>
         </section>
     </main>
     <footer>Made by me!</footer>
+    <script src="./messaging.js"></script>
 </body>
 </html>
